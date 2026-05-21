@@ -31,7 +31,7 @@ BASE_DIR = Path.home() / 'Desktop' / 'atbswp' / 'ch10'
 
 def save_story(adj, noun1, verb, noun2, mode):
     story = f"The {adj} panda walked to the {noun1} and then {verb}. A nearby {noun2} was unaffected by these events."
-    mad_libs_file = BASE_DIR / 'mad_libs.txt'
+    mad_libs_file = BASE_DIR / 'mad_libs_write.txt'
     with open(mad_libs_file, mode, encoding='utf-8') as file:
         file.write(story + '\n\n')
 
