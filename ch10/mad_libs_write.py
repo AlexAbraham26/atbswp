@@ -27,7 +27,7 @@ pickup truck was unaffected by these events.
 
 from pathlib import Path
 
-BASE_DIR = Path.home() / 'Desktop' / 'atbswp' / 'ch10'
+BASE_DIR = Path.home() / 'Desktop' / 'atbswp' / 'ch10'/ 'mad_libs'
 
 def save_story(adj, noun1, verb, noun2, mode):
     story = f"The {adj} panda walked to the {noun1} and then {verb}. A nearby {noun2} was unaffected by these events."
